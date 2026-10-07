@@ -10,7 +10,7 @@ OTIG is an ingestion and translation gateway built on the OpenTelemetry Collecto
 
 Before deploying the Collector-Exporter, ensure your environment meets these requirements from the [Splunk AppDynamics OTIG documentation](https://help.splunk.com/en/appdynamics-saas/application-performance-monitoring/26.4.0/opentelemetry-ingestion-gateway-for-appdynamics)
 
-- **Controller:** AppDynamics SaaS or On-Premises. The documentation lists version 26.4.0 compatibility; 25.10.0 is the minimum version, while Node-level visibility and Metrics Browser support require 26.4.0.
+- **Controller:** AppDynamics On-Premises or SaaS Controller from version 26.4.0.
 - **Deployment environment:** AppDynamics On-Premises Virtual Appliance (VA) or cSaaS.
 - **Operating system:** Amazon Linux, Red Hat Enterprise Linux (RHEL), or a Debian-based distribution.
 - **Architecture:** `amd64` (`x86_64`) or `arm64` (`aarch64`).
